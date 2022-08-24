@@ -1,0 +1,6 @@
+#dotenv
+.env
+Weather/.env
+
+#Nodemodules
+/Weather/node_modules

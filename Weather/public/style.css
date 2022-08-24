@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    /* background-color: rgb(74, 72, 70); */
+}
+.weathergif1{
+    height: 10rem;
+    width:  10rem;
+    z-index: -1;
+}
+.weathergif2{
+    height: 10rem;
+    width: 10rem;
+    z-index: -1;
+}
+
+/*Topic*/
+#header{
+   
+    /* padding: 30px 0px; */
+}
+
+#hearder h1{
+    font-weight: 900;
+    font-size: 34px;
+    padding-bottom: 5px;
+    color: bisque;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(143, 165, 232);
+    /* padding: 25px 0px;   */
+}
+
+.title p{
+    font-size: 18px;
+    color: rgb(127, 133, 149);
+    font-weight: bolder;
+}
+
+.card-body{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+    background-color: #b9daf9
+}
+
+.card{
+    margin: 20px 10px;
+}
+
+.card-title{
+    font-weight: bold;
+    color: rgb(114, 114, 46);
+}
+
+.cardtext{
+    color: brown;
+}
+.temp{
+    font-weight: bold;
+    color:rgb(63, 59, 59)
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
